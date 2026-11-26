@@ -1,31 +1,16 @@
-.container {
-  max-width: 480px;
-  margin: 40px auto;
-  padding: 0 16px;
-  text-align: left;
+.formulario input.invalido {
+  border: 2px solid #c62828;
 }
 
-.formulario {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.erro {
+  color: #c62828;
+  font-size: 14px;
+  font-weight: normal;
 }
 
-.formulario label {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-weight: bold;
-}
-
-.formulario input {
-  padding: 8px;
-  font-size: 16px;
-}
-
-.mensagem {
+.alerta {
   padding: 12px;
   border-radius: 6px;
-  background: #e6f4ea;
-  color: #1e4620;
+  background: #fdecea;
+  color: #8a1c1c;
 }
